@@ -24,6 +24,7 @@ const Home = () => {
       setDueDate("");
     }
   };
+  console.log(tasks);
 
   const handleClearTaskClick = (index) => {
     const newTasks = tasks.filter((_, i) => i !== index);
